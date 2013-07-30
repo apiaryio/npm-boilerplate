@@ -1,0 +1,27 @@
+{
+  "name": "npm-boilerplate",
+  "version": "0.0.1",
+  "description": "Some usefull description",
+  "main": "lib/npm-boilerplate.js",
+  "scripts": {
+    "test": "scripts/test",
+    "prepublish": "scripts/prepublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apiaryio/npm-boilerplate"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.3",
+    "mocha": "1.11.0",
+    "chai": "1.7.1"
+  },
+  "keywords": [
+    "npm",
+    "boilerplate"
+  ],
+  "author": "Adam Kliment <adam@apiary.io>",
+  "license": "MIT"
+}
