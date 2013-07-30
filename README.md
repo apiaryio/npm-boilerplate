@@ -12,19 +12,22 @@
 - `scripts/prepublish` - run test and if passed then build
 - `scripts/test` - run tests
 
-## Do not forget to edit package json
+## Edit defaults
 
-- package `name`
-- pacakge `description`
-- path to your `main` file
-- `version`
-- `author`
-- `keywords`
-- `repository`
-- `homepage`
-- do not forget to add possible executables to `bin` section
+- Edit package name in Travis-CI and David-DM badges in this readme
+- Edit package json:
+	- package `name`
+	- pacakge `description`
+	- path to your `main` file
+	- `version`
+	- `author`
+	- `keywords`
+	- `repository`
+	- `homepage`
+	- do not forget to add possible executables to `bin` section
 
 ## Add example usage 
+
 ```javascript
 var boilerplate = require('npm-boilerplate');
 
