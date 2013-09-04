@@ -8,3 +8,5 @@ notifications:
       - adam@apiary.io
     on_success: change
     on_failure: always
+after_success:
+  - ./scripts/coveralls
