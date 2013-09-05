@@ -1,3 +1,9 @@
 #!/bin/sh
+git submodule init
+git submodule update
 ./scripts/build
-./node_modules/mocha/bin/mocha --reporter spec --compilers 'coffee:coffee-script' ./test/**/*-test.coffee
+cd $(dirname $0)
+./cucumber 2>&1 \
+&& ./mocha 2>&1
+
+
